@@ -68,8 +68,6 @@ function setup(){
 
 function draw(){
 
-    if(backgroundImg)
-
     background(backgroundImg);
 
     textSize(30);
@@ -140,7 +138,7 @@ function keyPressed(){
 }
 }
 
-async function getBackgroundImage(){
+/*async function getBackgroundImage(){
 
     var response = await fetch("https://worldclockapi.com/api/json/est/now");
     var responseJSON = await response.json();
@@ -155,4 +153,4 @@ async function getBackgroundImage(){
 
 }
     backgroundImg = loadImage(bg);
-}
+*/}
